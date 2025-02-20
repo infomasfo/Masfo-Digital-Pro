@@ -1,0 +1,70 @@
+ .navbar {
+      padding: rem; /* Add padding to the navbar */
+    }
+    .navbar-brand {
+      margin-right: 7rem; /* Add more space between the logo and the navigation */
+    }
+    .nav-item {
+      margin-right: 1rem; /* Add space between nav items */
+    }
+    .form-buttons {
+      gap: 0.7rem; /* Add spacing between the buttons */
+    }
+    .carousel-container {
+      max-width: 1250px; /* Set a custom width for the carousel */
+      margin: 0 auto; /* Center the carousel horizontally */
+    }
+    .carousel-inner img {
+      border-top-left-radius: 20px; /* Top-left corner */
+      border-top-right-radius: 10px; /* Top-right corner */
+      border-bottom-left-radius: 30px; /* Bottom-left corner */
+      border-bottom-right-radius: 300px; /* Bottom-right corner */
+    }
+    .carousel-caption {
+      /*background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+      padding: 1rem;
+      border-radius: 10px;
+      margin-left: -50rem;
+      margin-bottom: 20rem;
+    }
+
+      /* Remove border from images */
+    .no-border-img {
+      border: none;
+    }
+
+    /* Add custom shadow */
+    .custom-shadow {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adjust the shadow to your preference */
+    }
+
+    /* Pricing */
+    .pricing-card {
+      transition: transform 0.3s, box-shadow 0.3s;
+      border: 2px solid transparent;
+    }
+    .pricing-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      border-color: #007bff;
+    }
+    .pricing-header {
+      background-color: #f8f9fa;
+      padding: 1rem;
+      border-radius: 0.5rem 0.5rem 0 0;
+    }
+    .price {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #007bff;
+    }
+    .toggle-btn {
+      margin-bottom: 1.5rem;
+    }
+    .check-icon {
+      color: green;
+      font-weight: bold;
+    }
+    .disable-feature {
+      color: #6c757d;
+    }
